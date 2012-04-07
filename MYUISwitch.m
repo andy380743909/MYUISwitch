@@ -85,7 +85,7 @@
     CGRect frame = self.frame;
     CGRect rect = CGRectMake((CGRectGetWidth(frame)-60.0f - 30.0f - 10.0f)/2 + 30.0f + 10.0f, (CGRectGetHeight(frame)-22.0f)/2, 60.0f, 22.0f);
     
-    rect = CGRectMake(titleLabelOffset.x, titleLabelOffset.y, CGRectGetWidth(frame)-titleLabelOffset.x-10.0f, CGRectGetHeight(frame)-titleLabelOffset.y-10.0f);
+    rect = CGRectMake(titleLabelOffset.x, titleLabelOffset.y, CGRectGetWidth(frame)-titleLabelOffset.x-10.0f, CGRectGetHeight(frame)-titleLabelOffset.y*2);
     
     titleLabel.frame = rect;
     //titleLabel.center = self.center;  //why this code cause titlelabel display in the error positon?
