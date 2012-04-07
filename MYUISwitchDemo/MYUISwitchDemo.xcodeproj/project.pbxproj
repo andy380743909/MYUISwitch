@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A133830015306FBB00958FEC /* FSO_0_AirPort.png in Resources */ = {isa = PBXBuildFile; fileRef = A13382FC15306FBB00958FEC /* FSO_0_AirPort.png */; };
+		A133830115306FBB00958FEC /* FSO_1_AirPort.png in Resources */ = {isa = PBXBuildFile; fileRef = A13382FD15306FBB00958FEC /* FSO_1_AirPort.png */; };
+		A133830215306FBB00958FEC /* FSO_2_AirPort.png in Resources */ = {isa = PBXBuildFile; fileRef = A13382FE15306FBB00958FEC /* FSO_2_AirPort.png */; };
+		A133830315306FBB00958FEC /* FSO_3_AirPort.png in Resources */ = {isa = PBXBuildFile; fileRef = A13382FF15306FBB00958FEC /* FSO_3_AirPort.png */; };
+		A1CB1F2815304A05008A9913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CB1F2715304A05008A9913 /* UIKit.framework */; };
+		A1CB1F2A15304A05008A9913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CB1F2915304A05008A9913 /* Foundation.framework */; };
+		A1CB1F2C15304A05008A9913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CB1F2B15304A05008A9913 /* CoreGraphics.framework */; };
+		A1CB1F3215304A05008A9913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1CB1F3015304A05008A9913 /* InfoPlist.strings */; };
+		A1CB1F3415304A05008A9913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1F3315304A05008A9913 /* main.m */; };
+		A1CB1F3815304A05008A9913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1F3715304A05008A9913 /* AppDelegate.m */; };
+		A1CB1F3B15304A05008A9913 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1F3A15304A05008A9913 /* MasterViewController.m */; };
+		A1CB1F4115304A05008A9913 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1CB1F3F15304A05008A9913 /* MasterViewController.xib */; };
+		A1CB1F4C15304A2B008A9913 /* MYUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CB1F4B15304A2B008A9913 /* MYUISwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A13382FC15306FBB00958FEC /* FSO_0_AirPort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSO_0_AirPort.png; sourceTree = "<group>"; };
+		A13382FD15306FBB00958FEC /* FSO_1_AirPort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSO_1_AirPort.png; sourceTree = "<group>"; };
+		A13382FE15306FBB00958FEC /* FSO_2_AirPort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSO_2_AirPort.png; sourceTree = "<group>"; };
+		A13382FF15306FBB00958FEC /* FSO_3_AirPort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FSO_3_AirPort.png; sourceTree = "<group>"; };
+		A1CB1F2315304A05008A9913 /* MYUISwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYUISwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CB1F2715304A05008A9913 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1CB1F2915304A05008A9913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1CB1F2B15304A05008A9913 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1CB1F2F15304A05008A9913 /* MYUISwitchDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MYUISwitchDemo-Info.plist"; sourceTree = "<group>"; };
+		A1CB1F3115304A05008A9913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1CB1F3315304A05008A9913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1CB1F3515304A05008A9913 /* MYUISwitchDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MYUISwitchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A1CB1F3615304A05008A9913 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1CB1F3715304A05008A9913 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1CB1F3915304A05008A9913 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A1CB1F3A15304A05008A9913 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A1CB1F4015304A05008A9913 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		A1CB1F4A15304A2B008A9913 /* MYUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYUISwitch.h; path = ../../MYUISwitch.h; sourceTree = "<group>"; };
+		A1CB1F4B15304A2B008A9913 /* MYUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYUISwitch.m; path = ../../MYUISwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1CB1F2015304A05008A9913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CB1F2815304A05008A9913 /* UIKit.framework in Frameworks */,
+				A1CB1F2A15304A05008A9913 /* Foundation.framework in Frameworks */,
+				A1CB1F2C15304A05008A9913 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1CB1F1815304A04008A9913 = {
+			isa = PBXGroup;
+			children = (
+				A1CB1F2D15304A05008A9913 /* MYUISwitchDemo */,
+				A1CB1F2615304A05008A9913 /* Frameworks */,
+				A1CB1F2415304A05008A9913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1CB1F2415304A05008A9913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB1F2315304A05008A9913 /* MYUISwitchDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1CB1F2615304A05008A9913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB1F2715304A05008A9913 /* UIKit.framework */,
+				A1CB1F2915304A05008A9913 /* Foundation.framework */,
+				A1CB1F2B15304A05008A9913 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1CB1F2D15304A05008A9913 /* MYUISwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A13382FC15306FBB00958FEC /* FSO_0_AirPort.png */,
+				A13382FD15306FBB00958FEC /* FSO_1_AirPort.png */,
+				A13382FE15306FBB00958FEC /* FSO_2_AirPort.png */,
+				A13382FF15306FBB00958FEC /* FSO_3_AirPort.png */,
+				A1CB1F4A15304A2B008A9913 /* MYUISwitch.h */,
+				A1CB1F4B15304A2B008A9913 /* MYUISwitch.m */,
+				A1CB1F3615304A05008A9913 /* AppDelegate.h */,
+				A1CB1F3715304A05008A9913 /* AppDelegate.m */,
+				A1CB1F3915304A05008A9913 /* MasterViewController.h */,
+				A1CB1F3A15304A05008A9913 /* MasterViewController.m */,
+				A1CB1F3F15304A05008A9913 /* MasterViewController.xib */,
+				A1CB1F2E15304A05008A9913 /* Supporting Files */,
+			);
+			path = MYUISwitchDemo;
+			sourceTree = "<group>";
+		};
+		A1CB1F2E15304A05008A9913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CB1F2F15304A05008A9913 /* MYUISwitchDemo-Info.plist */,
+				A1CB1F3015304A05008A9913 /* InfoPlist.strings */,
+				A1CB1F3315304A05008A9913 /* main.m */,
+				A1CB1F3515304A05008A9913 /* MYUISwitchDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1CB1F2215304A05008A9913 /* MYUISwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CB1F4715304A05008A9913 /* Build configuration list for PBXNativeTarget "MYUISwitchDemo" */;
+			buildPhases = (
+				A1CB1F1F15304A05008A9913 /* Sources */,
+				A1CB1F2015304A05008A9913 /* Frameworks */,
+				A1CB1F2115304A05008A9913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYUISwitchDemo;
+			productName = MYUISwitchDemo;
+			productReference = A1CB1F2315304A05008A9913 /* MYUISwitchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1CB1F1A15304A04008A9913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A1CB1F1D15304A04008A9913 /* Build configuration list for PBXProject "MYUISwitchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1CB1F1815304A04008A9913;
+			productRefGroup = A1CB1F2415304A05008A9913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1CB1F2215304A05008A9913 /* MYUISwitchDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1CB1F2115304A05008A9913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CB1F3215304A05008A9913 /* InfoPlist.strings in Resources */,
+				A1CB1F4115304A05008A9913 /* MasterViewController.xib in Resources */,
+				A133830015306FBB00958FEC /* FSO_0_AirPort.png in Resources */,
+				A133830115306FBB00958FEC /* FSO_1_AirPort.png in Resources */,
+				A133830215306FBB00958FEC /* FSO_2_AirPort.png in Resources */,
+				A133830315306FBB00958FEC /* FSO_3_AirPort.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1CB1F1F15304A05008A9913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CB1F3415304A05008A9913 /* main.m in Sources */,
+				A1CB1F3815304A05008A9913 /* AppDelegate.m in Sources */,
+				A1CB1F3B15304A05008A9913 /* MasterViewController.m in Sources */,
+				A1CB1F4C15304A2B008A9913 /* MYUISwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1CB1F3015304A05008A9913 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CB1F3115304A05008A9913 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1CB1F3F15304A05008A9913 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1CB1F4015304A05008A9913 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1CB1F4515304A05008A9913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1CB1F4615304A05008A9913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1CB1F4815304A05008A9913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYUISwitchDemo/MYUISwitchDemo-Prefix.pch";
+				INFOPLIST_FILE = "MYUISwitchDemo/MYUISwitchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1CB1F4915304A05008A9913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYUISwitchDemo/MYUISwitchDemo-Prefix.pch";
+				INFOPLIST_FILE = "MYUISwitchDemo/MYUISwitchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1CB1F1D15304A04008A9913 /* Build configuration list for PBXProject "MYUISwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CB1F4515304A05008A9913 /* Debug */,
+				A1CB1F4615304A05008A9913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CB1F4715304A05008A9913 /* Build configuration list for PBXNativeTarget "MYUISwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CB1F4815304A05008A9913 /* Debug */,
+				A1CB1F4915304A05008A9913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1CB1F1A15304A04008A9913 /* Project object */;
+}
