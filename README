@@ -1,0 +1,6 @@
+
+
+this is a UIControl subclass that behavior like Apple's UISwitch,it's a toggle selected button.
+
+but you can make it animated as whatever you like through the four UIImageViews,two icon images 
+and two background images). the work left is artwork,you guys can play it as you like.
